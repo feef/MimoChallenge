@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48BAC0AF20FFA9BF00F19924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0AE20FFA9BF00F19924 /* AppDelegate.swift */; };
+		48BAC0B620FFA9C200F19924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48BAC0B520FFA9C200F19924 /* Assets.xcassets */; };
+		48BAC0B920FFA9C200F19924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48BAC0B720FFA9C200F19924 /* LaunchScreen.storyboard */; };
+		48BAC0CF20FFAA9800F19924 /* LessonContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0CE20FFAA9800F19924 /* LessonContainerViewController.swift */; };
+		48BAC0D120FFAC3300F19924 /* LessonProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0D020FFAC3300F19924 /* LessonProvider.swift */; };
+		48BAC0D320FFACAB00F19924 /* LessonProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0D220FFACAB00F19924 /* LessonProviderDelegate.swift */; };
+		48BAC0D520FFADA300F19924 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0D420FFADA300F19924 /* UIViewController.swift */; };
+		48BAC0D720FFADF400F19924 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0D620FFADF400F19924 /* UIView.swift */; };
+		48BAC0D920FFAE8600F19924 /* LessonContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48BAC0D820FFAE8600F19924 /* LessonContainerViewController.xib */; };
+		48BAC0DB20FFAF8B00F19924 /* LessonContainerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0DA20FFAF8B00F19924 /* LessonContainerDelegate.swift */; };
+		48BAC0DD20FFB10600F19924 /* LessonProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0DC20FFB10600F19924 /* LessonProviderViewController.swift */; };
+		48BAC0E220FFB34D00F19924 /* LessonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0E120FFB34D00F19924 /* LessonContent.swift */; };
+		48BAC0E420FFB37900F19924 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0E320FFB37900F19924 /* Lesson.swift */; };
+		48BAC0E720FFB67700F19924 /* LessonFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0E620FFB67700F19924 /* LessonFlowController.swift */; };
+		48BAC0E920FFB97300F19924 /* LessonProviderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48BAC0E820FFB97300F19924 /* LessonProviderViewController.xib */; };
+		48BAC0F020FFC06F00F19924 /* LessonFlowControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0EF20FFC06F00F19924 /* LessonFlowControllerDelegate.swift */; };
+		48BAC0F420FFC76B00F19924 /* LessonFlowStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0F320FFC76B00F19924 /* LessonFlowStatusViewController.swift */; };
+		48BAC0F620FFD64200F19924 /* InputCheckingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0F520FFD64200F19924 /* InputCheckingTextField.swift */; };
+		48BAC0F820FFF24F00F19924 /* LessonFlowStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48BAC0F720FFF24F00F19924 /* LessonFlowStatusViewController.xib */; };
+		48BAC0FA20FFF54900F19924 /* LessonGroupFetchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0F920FFF54900F19924 /* LessonGroupFetchOperation.swift */; };
+		48BAC0FC20FFF56D00F19924 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0FB20FFF56D00F19924 /* AsynchronousOperation.swift */; };
+		48BAC0FF20FFF5EA00F19924 /* ResultGeneratingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC0FE20FFF5EA00F19924 /* ResultGeneratingOperation.swift */; };
+		48BAC10320FFF60D00F19924 /* OperationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC10220FFF60D00F19924 /* OperationResult.swift */; };
+		48BAC10520FFFA1B00F19924 /* JSONInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC10420FFFA1B00F19924 /* JSONInitializable.swift */; };
+		48BAC10720FFFBEB00F19924 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC10620FFFBEB00F19924 /* UIColor.swift */; };
+		48BAC10A21006D9A00F19924 /* LessonSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC10921006D9A00F19924 /* LessonSession.swift */; };
+		48BAC10D2100840F00F19924 /* KeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC10C2100840F00F19924 /* KeyboardManager.swift */; };
+		48BAC10F2100858600F19924 /* UIViewAnimationCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BAC10E2100858600F19924 /* UIViewAnimationCurve.swift */; };
+		6BD067A17D79CDDDCEFC6833 /* Pods_MimoChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 630BCEA36189B81DDFE5D0E6 /* Pods_MimoChallengeTests.framework */; };
+		6FA1C53A2E3447AF9C9998AC /* Pods_MimoChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1D1BD078BE282DBE5B0164 /* Pods_MimoChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48BAC0C020FFA9C200F19924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48BAC0A320FFA9BE00F19924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48BAC0AA20FFA9BF00F19924;
+			remoteInfo = MimoChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F25E1233CAE895E4F487F8 /* Pods-MimoChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimoChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MimoChallengeTests/Pods-MimoChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CECE029B4DD84910C6FC9A1 /* Pods-MimoChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimoChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MimoChallenge/Pods-MimoChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		48BAC0AB20FFA9BF00F19924 /* MimoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MimoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BAC0AE20FFA9BF00F19924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48BAC0B520FFA9C200F19924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48BAC0B820FFA9C200F19924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48BAC0BA20FFA9C200F19924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BAC0BF20FFA9C200F19924 /* MimoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MimoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48BAC0C520FFA9C200F19924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48BAC0CE20FFAA9800F19924 /* LessonContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonContainerViewController.swift; sourceTree = "<group>"; };
+		48BAC0D020FFAC3300F19924 /* LessonProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonProvider.swift; sourceTree = "<group>"; };
+		48BAC0D220FFACAB00F19924 /* LessonProviderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonProviderDelegate.swift; sourceTree = "<group>"; };
+		48BAC0D420FFADA300F19924 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		48BAC0D620FFADF400F19924 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		48BAC0D820FFAE8600F19924 /* LessonContainerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonContainerViewController.xib; sourceTree = "<group>"; };
+		48BAC0DA20FFAF8B00F19924 /* LessonContainerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonContainerDelegate.swift; sourceTree = "<group>"; };
+		48BAC0DC20FFB10600F19924 /* LessonProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonProviderViewController.swift; sourceTree = "<group>"; };
+		48BAC0E120FFB34D00F19924 /* LessonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonContent.swift; sourceTree = "<group>"; };
+		48BAC0E320FFB37900F19924 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		48BAC0E620FFB67700F19924 /* LessonFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFlowController.swift; sourceTree = "<group>"; };
+		48BAC0E820FFB97300F19924 /* LessonProviderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonProviderViewController.xib; sourceTree = "<group>"; };
+		48BAC0EF20FFC06F00F19924 /* LessonFlowControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFlowControllerDelegate.swift; sourceTree = "<group>"; };
+		48BAC0F320FFC76B00F19924 /* LessonFlowStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonFlowStatusViewController.swift; sourceTree = "<group>"; };
+		48BAC0F520FFD64200F19924 /* InputCheckingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCheckingTextField.swift; sourceTree = "<group>"; };
+		48BAC0F720FFF24F00F19924 /* LessonFlowStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LessonFlowStatusViewController.xib; sourceTree = "<group>"; };
+		48BAC0F920FFF54900F19924 /* LessonGroupFetchOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonGroupFetchOperation.swift; sourceTree = "<group>"; };
+		48BAC0FB20FFF56D00F19924 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsynchronousOperation.swift; sourceTree = "<group>"; };
+		48BAC0FE20FFF5EA00F19924 /* ResultGeneratingOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultGeneratingOperation.swift; sourceTree = "<group>"; };
+		48BAC10220FFF60D00F19924 /* OperationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationResult.swift; sourceTree = "<group>"; };
+		48BAC10420FFFA1B00F19924 /* JSONInitializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInitializable.swift; sourceTree = "<group>"; };
+		48BAC10620FFFBEB00F19924 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		48BAC10921006D9A00F19924 /* LessonSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSession.swift; sourceTree = "<group>"; };
+		48BAC10C2100840F00F19924 /* KeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardManager.swift; sourceTree = "<group>"; };
+		48BAC10E2100858600F19924 /* UIViewAnimationCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewAnimationCurve.swift; sourceTree = "<group>"; };
+		630BCEA36189B81DDFE5D0E6 /* Pods_MimoChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimoChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1D1BD078BE282DBE5B0164 /* Pods_MimoChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MimoChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2853EB7452F598068941006 /* Pods-MimoChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimoChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MimoChallengeTests/Pods-MimoChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D0B4CF43A53FB5B5AECCAFE8 /* Pods-MimoChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MimoChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-MimoChallenge/Pods-MimoChallenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48BAC0A820FFA9BF00F19924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA1C53A2E3447AF9C9998AC /* Pods_MimoChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BAC0BC20FFA9C200F19924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD067A17D79CDDDCEFC6833 /* Pods_MimoChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48BAC0A220FFA9BE00F19924 = {
+			isa = PBXGroup;
+			children = (
+				48BAC0AD20FFA9BF00F19924 /* MimoChallenge */,
+				48BAC0C220FFA9C200F19924 /* MimoChallengeTests */,
+				48BAC0AC20FFA9BF00F19924 /* Products */,
+				98544BA7B75B2EB56719A5BA /* Pods */,
+				4AA0BC91E26BF24521CC5126 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48BAC0AC20FFA9BF00F19924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC0AB20FFA9BF00F19924 /* MimoChallenge.app */,
+				48BAC0BF20FFA9C200F19924 /* MimoChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48BAC0AD20FFA9BF00F19924 /* MimoChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC0AE20FFA9BF00F19924 /* AppDelegate.swift */,
+				48BAC0B520FFA9C200F19924 /* Assets.xcassets */,
+				48BAC0E020FFB27F00F19924 /* Extensions */,
+				48BAC0BA20FFA9C200F19924 /* Info.plist */,
+				48BAC0B720FFA9C200F19924 /* LaunchScreen.storyboard */,
+				48BAC0EE20FFC03D00F19924 /* Logic */,
+				48BAC0E520FFB4C700F19924 /* Models */,
+				48BAC0FD20FFF57200F19924 /* Operations */,
+				48BAC0DE20FFB26C00F19924 /* Protocols */,
+				48BAC0DF20FFB27300F19924 /* ViewControllers */,
+				48BAC10820FFFEDE00F19924 /* Views */,
+			);
+			path = MimoChallenge;
+			sourceTree = "<group>";
+		};
+		48BAC0C220FFA9C200F19924 /* MimoChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC0C520FFA9C200F19924 /* Info.plist */,
+			);
+			path = MimoChallengeTests;
+			sourceTree = "<group>";
+		};
+		48BAC0DE20FFB26C00F19924 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC10420FFFA1B00F19924 /* JSONInitializable.swift */,
+				48BAC0DA20FFAF8B00F19924 /* LessonContainerDelegate.swift */,
+				48BAC0EF20FFC06F00F19924 /* LessonFlowControllerDelegate.swift */,
+				48BAC0D020FFAC3300F19924 /* LessonProvider.swift */,
+				48BAC0D220FFACAB00F19924 /* LessonProviderDelegate.swift */,
+				48BAC0FE20FFF5EA00F19924 /* ResultGeneratingOperation.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		48BAC0DF20FFB27300F19924 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC0CE20FFAA9800F19924 /* LessonContainerViewController.swift */,
+				48BAC0D820FFAE8600F19924 /* LessonContainerViewController.xib */,
+				48BAC0F320FFC76B00F19924 /* LessonFlowStatusViewController.swift */,
+				48BAC0F720FFF24F00F19924 /* LessonFlowStatusViewController.xib */,
+				48BAC0DC20FFB10600F19924 /* LessonProviderViewController.swift */,
+				48BAC0E820FFB97300F19924 /* LessonProviderViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		48BAC0E020FFB27F00F19924 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC10620FFFBEB00F19924 /* UIColor.swift */,
+				48BAC0D620FFADF400F19924 /* UIView.swift */,
+				48BAC10E2100858600F19924 /* UIViewAnimationCurve.swift */,
+				48BAC0D420FFADA300F19924 /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		48BAC0E520FFB4C700F19924 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC0E320FFB37900F19924 /* Lesson.swift */,
+				48BAC0E120FFB34D00F19924 /* LessonContent.swift */,
+				48BAC10220FFF60D00F19924 /* OperationResult.swift */,
+				48BAC10B2100714800F19924 /* RealmModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48BAC0EE20FFC03D00F19924 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC0E620FFB67700F19924 /* LessonFlowController.swift */,
+				48BAC10C2100840F00F19924 /* KeyboardManager.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		48BAC0FD20FFF57200F19924 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC0FB20FFF56D00F19924 /* AsynchronousOperation.swift */,
+				48BAC0F920FFF54900F19924 /* LessonGroupFetchOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		48BAC10820FFFEDE00F19924 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC0F520FFD64200F19924 /* InputCheckingTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48BAC10B2100714800F19924 /* RealmModels */ = {
+			isa = PBXGroup;
+			children = (
+				48BAC10921006D9A00F19924 /* LessonSession.swift */,
+			);
+			path = RealmModels;
+			sourceTree = "<group>";
+		};
+		4AA0BC91E26BF24521CC5126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D1BD078BE282DBE5B0164 /* Pods_MimoChallenge.framework */,
+				630BCEA36189B81DDFE5D0E6 /* Pods_MimoChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98544BA7B75B2EB56719A5BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CECE029B4DD84910C6FC9A1 /* Pods-MimoChallenge.debug.xcconfig */,
+				D0B4CF43A53FB5B5AECCAFE8 /* Pods-MimoChallenge.release.xcconfig */,
+				05F25E1233CAE895E4F487F8 /* Pods-MimoChallengeTests.debug.xcconfig */,
+				C2853EB7452F598068941006 /* Pods-MimoChallengeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48BAC0AA20FFA9BF00F19924 /* MimoChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48BAC0C820FFA9C200F19924 /* Build configuration list for PBXNativeTarget "MimoChallenge" */;
+			buildPhases = (
+				65C992ABD0236ACB7E787FE5 /* [CP] Check Pods Manifest.lock */,
+				48BAC0A720FFA9BF00F19924 /* Sources */,
+				48BAC0A820FFA9BF00F19924 /* Frameworks */,
+				48BAC0A920FFA9BF00F19924 /* Resources */,
+				D050DAE9C71769BF17C0A54C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MimoChallenge;
+			productName = MimoChallenge;
+			productReference = 48BAC0AB20FFA9BF00F19924 /* MimoChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48BAC0BE20FFA9C200F19924 /* MimoChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48BAC0CB20FFA9C200F19924 /* Build configuration list for PBXNativeTarget "MimoChallengeTests" */;
+			buildPhases = (
+				B83566E16BA6CF699E0417E2 /* [CP] Check Pods Manifest.lock */,
+				48BAC0BB20FFA9C200F19924 /* Sources */,
+				48BAC0BC20FFA9C200F19924 /* Frameworks */,
+				48BAC0BD20FFA9C200F19924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48BAC0C120FFA9C200F19924 /* PBXTargetDependency */,
+			);
+			name = MimoChallengeTests;
+			productName = MimoChallengeTests;
+			productReference = 48BAC0BF20FFA9C200F19924 /* MimoChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48BAC0A320FFA9BE00F19924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Feef Anthony";
+				TargetAttributes = {
+					48BAC0AA20FFA9BF00F19924 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					48BAC0BE20FFA9C200F19924 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 48BAC0AA20FFA9BF00F19924;
+					};
+				};
+			};
+			buildConfigurationList = 48BAC0A620FFA9BE00F19924 /* Build configuration list for PBXProject "MimoChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48BAC0A220FFA9BE00F19924;
+			productRefGroup = 48BAC0AC20FFA9BF00F19924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48BAC0AA20FFA9BF00F19924 /* MimoChallenge */,
+				48BAC0BE20FFA9C200F19924 /* MimoChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48BAC0A920FFA9BF00F19924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BAC0B920FFA9C200F19924 /* LaunchScreen.storyboard in Resources */,
+				48BAC0F820FFF24F00F19924 /* LessonFlowStatusViewController.xib in Resources */,
+				48BAC0B620FFA9C200F19924 /* Assets.xcassets in Resources */,
+				48BAC0E920FFB97300F19924 /* LessonProviderViewController.xib in Resources */,
+				48BAC0D920FFAE8600F19924 /* LessonContainerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BAC0BD20FFA9C200F19924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65C992ABD0236ACB7E787FE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MimoChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83566E16BA6CF699E0417E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MimoChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D050DAE9C71769BF17C0A54C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MimoChallenge/Pods-MimoChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MimoChallenge/Pods-MimoChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48BAC0A720FFA9BF00F19924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BAC0FA20FFF54900F19924 /* LessonGroupFetchOperation.swift in Sources */,
+				48BAC0CF20FFAA9800F19924 /* LessonContainerViewController.swift in Sources */,
+				48BAC0DB20FFAF8B00F19924 /* LessonContainerDelegate.swift in Sources */,
+				48BAC0FC20FFF56D00F19924 /* AsynchronousOperation.swift in Sources */,
+				48BAC10F2100858600F19924 /* UIViewAnimationCurve.swift in Sources */,
+				48BAC0D320FFACAB00F19924 /* LessonProviderDelegate.swift in Sources */,
+				48BAC0AF20FFA9BF00F19924 /* AppDelegate.swift in Sources */,
+				48BAC10520FFFA1B00F19924 /* JSONInitializable.swift in Sources */,
+				48BAC0D120FFAC3300F19924 /* LessonProvider.swift in Sources */,
+				48BAC0E720FFB67700F19924 /* LessonFlowController.swift in Sources */,
+				48BAC10720FFFBEB00F19924 /* UIColor.swift in Sources */,
+				48BAC0E420FFB37900F19924 /* Lesson.swift in Sources */,
+				48BAC0E220FFB34D00F19924 /* LessonContent.swift in Sources */,
+				48BAC0F620FFD64200F19924 /* InputCheckingTextField.swift in Sources */,
+				48BAC0F020FFC06F00F19924 /* LessonFlowControllerDelegate.swift in Sources */,
+				48BAC0F420FFC76B00F19924 /* LessonFlowStatusViewController.swift in Sources */,
+				48BAC0D720FFADF400F19924 /* UIView.swift in Sources */,
+				48BAC10A21006D9A00F19924 /* LessonSession.swift in Sources */,
+				48BAC0FF20FFF5EA00F19924 /* ResultGeneratingOperation.swift in Sources */,
+				48BAC10D2100840F00F19924 /* KeyboardManager.swift in Sources */,
+				48BAC0D520FFADA300F19924 /* UIViewController.swift in Sources */,
+				48BAC10320FFF60D00F19924 /* OperationResult.swift in Sources */,
+				48BAC0DD20FFB10600F19924 /* LessonProviderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BAC0BB20FFA9C200F19924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48BAC0C120FFA9C200F19924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48BAC0AA20FFA9BF00F19924 /* MimoChallenge */;
+			targetProxy = 48BAC0C020FFA9C200F19924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48BAC0B720FFA9C200F19924 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48BAC0B820FFA9C200F19924 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48BAC0C620FFA9C200F19924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48BAC0C720FFA9C200F19924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48BAC0C920FFA9C200F19924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CECE029B4DD84910C6FC9A1 /* Pods-MimoChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 239483289D;
+				INFOPLIST_FILE = MimoChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.MimoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48BAC0CA20FFA9C200F19924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B4CF43A53FB5B5AECCAFE8 /* Pods-MimoChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 239483289D;
+				INFOPLIST_FILE = MimoChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.MimoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48BAC0CC20FFA9C200F19924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F25E1233CAE895E4F487F8 /* Pods-MimoChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimoChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.MimoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MimoChallenge.app/MimoChallenge";
+			};
+			name = Debug;
+		};
+		48BAC0CD20FFA9C200F19924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2853EB7452F598068941006 /* Pods-MimoChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MimoChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Feef.Anthony.MimoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MimoChallenge.app/MimoChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48BAC0A620FFA9BE00F19924 /* Build configuration list for PBXProject "MimoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BAC0C620FFA9C200F19924 /* Debug */,
+				48BAC0C720FFA9C200F19924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BAC0C820FFA9C200F19924 /* Build configuration list for PBXNativeTarget "MimoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BAC0C920FFA9C200F19924 /* Debug */,
+				48BAC0CA20FFA9C200F19924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BAC0CB20FFA9C200F19924 /* Build configuration list for PBXNativeTarget "MimoChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48BAC0CC20FFA9C200F19924 /* Debug */,
+				48BAC0CD20FFA9C200F19924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48BAC0A320FFA9BE00F19924 /* Project object */;
+}
